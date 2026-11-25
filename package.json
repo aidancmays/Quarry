@@ -1,0 +1,25 @@
+{
+  "name": "com.aidancmays.quarry",
+  "version": "0.1.0",
+  "displayName": "Quarry",
+  "description": "Parts for the things players fight (Netcode for GameObjects): server-authoritative Health with damage, death and a Dead gameplay tag; Knockback that pushes and staggers by how hard and with what kind of damage something was hit (a profile of damage type multipliers, matched up the tag tree), for rigidbodies and for kinematic, CharacterController or NavMesh movers alike; a Health Bar that floats over the head, shows when hurt and fades; and Senses whose noticing radius each target scales through INoiseSource (sneak up crouched, be heard sprinting). An optional adapter routes Cleave melee hits into Health and Knockback.",
+  "unity": "6000.3",
+  "documentationUrl": "",
+  "keywords": [
+    "enemies",
+    "health",
+    "knockback",
+    "stagger",
+    "health bar",
+    "stealth",
+    "netcode"
+  ],
+  "author": {
+    "name": "Aidan"
+  },
+  "dependencies": {
+    "com.unity.netcode.gameobjects": "2.7.0",
+    "com.unity.ugui": "2.0.0",
+    "com.aidancmays.gameplay-tags": "0.1.0"
+  }
+}

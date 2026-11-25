@@ -1,0 +1,27 @@
+{
+    "name": "Quarry.Cleave",
+    "rootNamespace": "Quarry.Cleave",
+    "references": [
+        "Quarry",
+        "Cleave",
+        "GameplayTags",
+        "Unity.Netcode.Runtime"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "QUARRY_CLEAVE"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.aidancmays.cleave",
+            "expression": "0.8.0",
+            "define": "QUARRY_CLEAVE"
+        }
+    ],
+    "noEngineReferences": false
+}
